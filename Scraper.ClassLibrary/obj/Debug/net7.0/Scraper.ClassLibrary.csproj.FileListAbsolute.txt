@@ -1,0 +1,12 @@
+C:\Users\pbenn\Documents\fm\Scraper\Scraper.ClassLibrary\obj\Debug\net7.0\Scraper.ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\pbenn\Documents\fm\Scraper\Scraper.ClassLibrary\obj\Debug\net7.0\Scraper.ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pbenn\Documents\fm\Scraper\Scraper.ClassLibrary\obj\Debug\net7.0\Scraper.ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\pbenn\Documents\fm\Scraper\Scraper.ClassLibrary\obj\Debug\net7.0\Scraper.ClassLibrary.AssemblyInfo.cs
+C:\Users\pbenn\Documents\fm\Scraper\Scraper.ClassLibrary\obj\Debug\net7.0\Scraper.ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\pbenn\Documents\fm\Scraper\Scraper.ClassLibrary\bin\Debug\net7.0\Scraper.ClassLibrary.deps.json
+C:\Users\pbenn\Documents\fm\Scraper\Scraper.ClassLibrary\bin\Debug\net7.0\Scraper.ClassLibrary.dll
+C:\Users\pbenn\Documents\fm\Scraper\Scraper.ClassLibrary\bin\Debug\net7.0\Scraper.ClassLibrary.pdb
+C:\Users\pbenn\Documents\fm\Scraper\Scraper.ClassLibrary\obj\Debug\net7.0\Scraper.ClassLibrary.dll
+C:\Users\pbenn\Documents\fm\Scraper\Scraper.ClassLibrary\obj\Debug\net7.0\refint\Scraper.ClassLibrary.dll
+C:\Users\pbenn\Documents\fm\Scraper\Scraper.ClassLibrary\obj\Debug\net7.0\Scraper.ClassLibrary.pdb
+C:\Users\pbenn\Documents\fm\Scraper\Scraper.ClassLibrary\obj\Debug\net7.0\ref\Scraper.ClassLibrary.dll
