@@ -15,6 +15,6 @@ namespace Scraper.ClassLibrary.Interfaces
         /// </summary>
         /// <param name="path">The path to the file</param>
         /// <param name="content">The content to write</param>
-        void WriteToFile(string path, string content);
+        string WriteToFile(string path, string content);
     }
 }
