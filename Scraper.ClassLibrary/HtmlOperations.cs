@@ -14,12 +14,17 @@ public class HtmlOperations: IHtmlParser
     {
         var htmlDoc = new HtmlDocument();
         htmlDoc.LoadHtml(html);
-        var links = htmlDoc.DocumentNode.SelectNodes("//a[@href]")
+        List<string> links = new List<string>();
+        try{
+            links = htmlDoc.DocumentNode.SelectNodes("//a[@href]")
             .Select(x => x.Attributes["href"].Value)
             .ToList();
-
-        // TODO: make all links absolute
-        //links = links.Select(x => x.StartsWith("http") ? x : new Uri(url, x)).ToList();
+            // TODO: make all links absolute
+            //links = links.Select(x => x.StartsWith("http") ? x : new Uri(url, x)).ToList();
+        }
+        catch(Exception ex){
+            Console.WriteLine(ex.Message);
+        }
         
         return links;
     }
@@ -31,11 +36,13 @@ public class HtmlOperations: IHtmlParser
     public async Task<string> GetHtml(string url)
     {
         var httpClient = new HttpClient();
-        try{
-        var html = await httpClient.GetStringAsync(url);
-        return html;
+        try
+        {
+            var html = await httpClient.GetStringAsync(url);
+            return html;
         }
-        catch(Exception ex){
+        catch (Exception ex)
+        {
             Console.WriteLine(ex.Message);
             return string.Empty;
         }
